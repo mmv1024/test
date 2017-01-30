@@ -1,0 +1,220 @@
+body{
+	font-family: 'Roboto', sans-serif !important;
+}
+h1{
+	font-size: 62.1px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.2;
+	text-align: center;
+	opacity: 1;
+}
+h2{
+	margin-top: 29px;
+	text-align: center;
+	font-size: 36px;
+	color: rgb(29, 114, 177);
+}
+ul {
+	list-style-type: none; 
+	color: rgb(88, 95, 103);
+  line-height: 1.2;
+  font-size: 14px;
+  height: 65px;
+}
+ul li {
+	
+	display: inline;
+	margin: 0px 12px 0 5px;
+	vertical-align: middle;
+	height: 65px;
+	padding: 3px 0;
+}
+ul li.active{
+	border-bottom: 3px solid #77bc3a;
+}
+.заказать_обратный_звонок {
+  font-size: 14px;
+  font-family: "Roboto";
+  color: rgb(254, 254, 254);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: right;
+  position: absolute;
+  left: 990.546px;
+  top: 18.502px;
+  z-index: 78;
+}
+
+
+.center{
+	text-align: center;
+}
+.list-item{
+	display: inline-block;
+	/*float: left;*/
+	background-color: #2390d0;
+	width: 19px;
+	height: 19px;
+	border: 3px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 3px;
+	margin: 0 7px 0 6px;
+}
+.list-item_header{
+	font-size: 18px;
+	font-weight: 500;
+	vertical-align: text-bottom;
+}
+
+.inline{
+	/*float: left;
+	margin-left: 25px;*/
+	display: inline-block;
+}
+header{
+	height: 64px;
+}
+header .header-menu{
+	font-size: 14px;
+	color: rgb(88, 95, 103);
+	line-height: 1.2;
+	text-align: left;
+	padding: 20px 0px;
+}
+
+
+
+.diagnostics{
+	background: url(img/background.png) no-repeat;
+	background-size: 100%;
+	width: 100%; 
+	height: 417px;
+	color: #fff;
+	padding: 73px 0;
+	font-size: 20px;
+  //font-family: "Myriad Pro";
+  line-height: 1.2;
+}
+.diagnostics>div{
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	width: 100%;
+	z-index: 100;
+}
+.diagnostics .info{
+	position: absolute;
+	height: 40px;
+	border-radius: 7px;
+	background: rgba(0, 0, 0, 0.5);
+	margin: 180px 30px;
+	padding: 12px 15px;
+	font-size: 14px;
+}
+.info>div{
+	display: inline-block;
+	width: 10px;
+	//height: 100%;
+}
+.info a{
+	display: inline-block;
+}
+.info .icon-1{
+	display: inline-block;
+	background: url(img/sprite.png) no-repeat;
+	
+}
+.info .icon-2{
+	display: inline-block;
+	background: url(img/sprite.png) 0 -23px no-repeat;
+	
+}
+.info .icon-3{
+	display: inline-block;
+	background: url(img/sprite.png) 0 -48px no-repeat;
+	width: 25px;
+}
+.blue-cover{
+	background-image: -moz-linear-gradient( 120deg, rgb(29,95,175) 0%, rgb(31,173,213) 100%);
+	background-image: -webkit-linear-gradient( 120deg, rgb(29,95,175) 0%, rgb(31,173,213) 100%);
+	background-image: -ms-linear-gradient( 120deg, rgb(29,95,175) 0%, rgb(31,173,213) 100%);
+	opacity: 0.702;
+	width: 100%;
+	position: absolute;
+	height: 417px;
+	
+}
+.pattern{
+	position: absolute; 
+	background: url(img/pattern.png);
+	width: 100%;
+	height: 417px;
+	opacity: .1;
+	/*background: linear-gradient(
+  white 50%,
+  transparent 50%);
+  background-size: 2em 2em;
+  background-color: black;*/
+}
+
+
+.button{
+	background: #95cd48;
+	background: linear-gradient(#95cd48,#55a929);
+	border-radius: 7px;
+	border: 2px solid;
+	border-color: #cde772 #c2e263 #7ed33d #b8de5a; 
+	font-size: 13.5px;
+	color: rgb(254, 254, 254);
+	font-weight: black;
+	text-transform: uppercase;
+	line-height: 1.714;
+	padding: 6px 19px 7px;
+    margin: 12px 15px 0 0;
+    position: absolute;
+    right: 6px;
+}
+.divider{
+	width: 296px;
+	border-bottom: 1px solid #cdcfd1;
+	text-align: center;
+	height: 1px;
+	padding-bottom: 4px;
+	margin: 14px auto;
+}
+.divider-round{
+	border: 1px solid #cdcfd1;
+	border-radius: 50%;
+	margin-top: -5px;
+	margin-left: 144px;
+	background-color: #fff;
+	width: 9px;
+	height: 9px;
+	text-align: center;
+}
+.divider-big{
+	width: 100%;
+	box-shadow: 0 0 7px 1px #cfcfcf;
+}
+.blue-text{
+	color: rgb(48, 233, 255);
+  //color: #30e9ff;
+}
+.comment{
+	text-align: center;
+	margin-bottom: 35px;
+}
+.service-item{
+	width: calc(100% - 25px);
+	margin-left: 35px;
+	margin-bottom: 40px;
+	line-height: 1.7;
+}
+.icon{
+	height: 15px;
+	width: 15px;
+	margin-right: 10px;
+}
