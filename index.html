@@ -8,6 +8,7 @@
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 		<link href="style.css" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&amp;subset=cyrillic-ext" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic-ext" rel="stylesheet">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 		<!--[if lt IE 9]>
@@ -33,7 +34,7 @@
 						</ul>
 					</div>
 					<div class="col-lg-3 ">
-						<a href="#" class="button">Заказать обратный звонок</a>
+						<a href="#window_overlay" class="button shadow">Заказать обратный звонок</a>
 					</div>
 				</div>
 			</div>
@@ -42,7 +43,7 @@
 		<div class="blue-cover"></div>
 		<div class="pattern"></div>				
 		<div class="diagnostics">
-			<div>
+			<div class="text">
 				<h1>Пренатальная диагностика</h1>
 				<span class="blue-text">Основная цель</span> медико-генетического консультирования — <br />
 				предупреждение появления на свет детей с <span class="blue-text">врожденными заболеваниями</span>
@@ -71,21 +72,21 @@
 				<div class="col-lg-3">
 					<div class="list-item"></div>
 					<div class="inline list-item_header">Лапароскопия</div>
-					<div class=" service-item">
+					<div class="service-item">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
 					</div>
 				</div>
 				<div class="col-lg-3">
 					<div class="list-item"></div>
 					<div class="inline list-item_header">ЭКО</div>
-					<div class=" service-item">
+					<div class="service-item">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
 					</div>
 				</div>
 				<div class="col-lg-3">
 					<div class="list-item"></div>
 					<div class="inline list-item_header">УЗИ</div>
-					<div class=" service-item">
+					<div class="service-item">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
 					</div>
 				</div>
@@ -94,9 +95,35 @@
 		
 		<div class="divider-big"></div>
 		
+		<div class="container">
+			<h2>Почему выбирают нас?</h2>
+			<div class="divider"><div class="divider-round"></div></div>
+			<div class="center">Что же делает нас такими уникальными</div>
+		</div>
 		
+		<div class="advantages">
+			<div class="container">
+			
+			</div>
+		</div>
 		
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-  </body>
+	</body>
+	<div id="window_overlay">
+		<div id="window">
+			<div class="window_inner">
+				<div class="call"><div>Заказать звонок</div></div>
+				<a href="#" class="close"></a>
+			</div>
+			<div class="window_divider"></div>
+			<div class="window_inner">
+				<span>Ваше имя</span>
+				<input type="text"></input>
+				<span>Номер телефона</span>
+				<input type="tel" pattern="7\([0-9]{3}\)[0-9]{3}-[0-9]{2}-[0-9]{2}"></input>
+				<input type="submit" class="button" value="Заказать обратный звонок"></input>
+			</div>
+		</div>
+	</div>
 </html>
