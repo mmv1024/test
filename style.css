@@ -1,5 +1,5 @@
 body{
-	font-family: 'Roboto', sans-serif !important;
+	font-family: 'Roboto', sans-serif;
 }
 h1{
 	font-size: 62.1px;
@@ -17,6 +17,12 @@ h2{
 	font-size: 36px;
 	color: rgb(29, 114, 177);
 }
+h3{
+	font-size: 24px;
+	color: rgb(29, 114, 177);
+	line-height: 1.2;
+	text-align: center;
+}
 ul {
 	list-style-type: none; 
 	color: rgb(88, 95, 103);
@@ -25,7 +31,6 @@ ul {
   height: 65px;
 }
 ul li {
-	
 	display: inline;
 	margin: 0px 12px 0 5px;
 	vertical-align: middle;
@@ -66,12 +71,15 @@ header{
 }
 header .header-menu{
 	font-size: 14px;
-	color: rgb(88, 95, 103);
+	/*color: rgb(88, 95, 103);*/
 	line-height: 1.2;
 	text-align: left;
 	padding: 20px 0px;
 }
-
+header .header-menu a, header .header-menu a:hover{
+	color: #585f67;
+	text-decoration: none;
+}
 .diagnostics{
 	background: url(img/background.png) no-repeat;
 	background-size: 100%;
@@ -198,7 +206,6 @@ header .header-menu{
 }
 .divider-big{
 	width: 100%;
-	//box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.42);
 	background: #fefcea; /* Для старых браузров */
     background: linear-gradient(to top, #cfcfcf, #fff);
 	height: 7px;
@@ -290,4 +297,200 @@ header .header-menu{
 #window .call>div{
 	font-size: 18px;
 	margin-top: -2px;
+}
+.advantages{
+	background: url(img/adv3.png) 0px -196px no-repeat; 
+	background-size: 100%;
+	padding-top: 52px;
+	padding-bottom: 119px;
+}
+.adv_img{
+	display: inline-block;
+	width: 82px;
+	height: 82px;
+	margin-bottom: 68px;
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(255, 255, 255);
+	border-radius: 50%;
+	background-image: -moz-linear-gradient( 120deg, rgb(41,114,203) 0%, rgb(31,173,213) 100%);
+	background-image: -webkit-linear-gradient( 120deg, rgb(41,114,203) 0%, rgb(31,173,213) 100%);
+	background-image: -ms-linear-gradient( 120deg, rgb(41,114,203) 0%, rgb(31,173,213) 100%);
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+}
+.adv_text{
+	display: inline-block;
+	width: calc(100% - 121px);
+    vertical-align: top;
+    margin-left: 26px;
+	line-height: 1.7;
+    font-size: 14px;
+}
+.adv_img-1, .adv_img-2, .adv_img-3, .adv_img-4{
+	width: 40px;
+	height: 40px;
+	margin: 20px;
+}
+.adv_img-1{
+	background: url(img/adv_sprite.png) 0px 0px no-repeat;
+}
+.adv_img-2{
+	background: url(img/adv_sprite.png) 0px -50px no-repeat;
+}
+.adv_img-3{
+	background: url(img/adv_sprite.png) 0px -98px no-repeat;
+	width: 54px;
+	margin: 20px auto;
+}
+.adv_img-4{
+	background: url(img/adv_sprite.png) 0px -144px no-repeat;
+}
+.background{
+	background: url(img/background2.png) 0px 291px no-repeat;
+	background-size: 100%;
+	width: 100%;
+}
+.steps{
+	margin: 0px auto;
+	width: 1010px;
+}
+.steps_header{
+	margin-top: -18px;
+}
+.steps_text_wrapper{
+	/*width: 473px;
+	width: calc(100% + 44px);*/
+	width: 490px;
+	height: 340px;
+	border: 7px solid #ececec;
+	
+	border-radius: 5px;
+	position: absolute;
+    z-index: 1;
+}
+.steps{
+	background: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 1px 1px #c9c9c9;
+	width: 100%;
+	height: 100%;
+	padding: 50px 50px 50px 54px;
+}
+.steps_number {
+	display: inline-block;
+	width: 53px;
+	height: 53px;
+	margin: 0 9px 10px;
+	padding-top: 12px;
+	font-size: 21px;
+	line-height: 1.2;
+	color: #585f67;
+	text-align: -webkit-center;
+	border-style: solid;
+	border-width: 3px;
+	border-color: rgb(255, 255, 255);
+	border-radius: 50%;
+	box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.2);
+}
+.steps_number.active{
+	background-image: -moz-linear-gradient( 120deg, rgb(41,114,203) 0%, rgb(31,173,213) 100%);
+	background-image: -webkit-linear-gradient( 120deg, rgb(41,114,203) 0%, rgb(31,173,213) 100%);
+	background-image: -ms-linear-gradient( 120deg, rgb(41,114,203) 0%, rgb(31,173,213) 100%);
+	color: rgb(255, 255, 255);
+}
+.steps_img{
+	background: url(img/steps.png);
+	height: 420px;
+	width: 550px;
+	border-radius: 7px;
+	right: -30px;
+    position: initial;
+}
+.steps .divider{
+	width: 138px;
+	margin: 17px auto 12px;
+}
+.steps .divider-round{
+	margin-left: 65px;
+}
+.steps_desc{
+	font-size: 15px;
+	margin: 10px;
+	line-height: 1.6;
+}
+
+.consult{
+	height: 320px;
+	background: url(img/consult.png) right no-repeat;
+	background-size: 40%;
+}
+.consult_text-1{
+	font-size: 48px;
+	color: rgb(88, 95, 103);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 0.5;
+	text-align: center;
+}
+.consult_text-2{
+	font-size: 9.894px;
+	color: rgb(255, 255, 255);
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.364;
+	text-align: center;
+}
+.consult_text-2>div{
+	text-align: center;
+	background-color: #7dbf3d;
+	margin: 21px auto 4px;
+    width: 194px;
+    font-size: 22px;
+    line-height: 1.1;
+}
+.consult_text-3{
+	color: rgb(88, 95, 103);
+	text-align: center;
+	font-size: 22px;
+	margin-bottom: 9px;
+}
+.consult_form{
+	width: 100%;
+	height: 100%;
+	border-radius: 10px;
+	padding: 20px 1px 28px 16px;
+	background-image: -moz-linear-gradient( 90deg, rgb(41,114,203) 0%, rgb(31,173,213) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(41,114,203) 0%, rgb(31,173,213) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(41,114,203) 0%, rgb(31,173,213) 100%);
+	box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+.consult_form input[type=text], .consult_form input[type=tel]{
+	border-radius: 5px;
+	width: 228px;
+	background-color: rgb(243, 243, 243);
+	box-shadow: inset 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+	padding: 11px 13px;
+	margin-right: 8px;
+	line-height: 1em;
+	color: #585f67;
+	font-size: 16px;
+}
+.consult_form .button{
+	margin: 0 0 0 5px;
+    float: none;
+    position: relative;
+	width: 229px;
+    font-size: 19px;
+}
+
+.consult_form_wrapper{
+	/*border-style: solid;
+	border-width: 1px;
+	border-color: rgb(255, 255, 255);*/
+ 	height: 113px;
+	width: 750px;
+	border-radius: 10px;
+	background: #dadada;
+	padding: 8px;
+	box-shadow: inset 0px 0px 3px 0px rgba(0, 0, 0, 0.28);
 }
