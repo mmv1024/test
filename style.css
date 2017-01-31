@@ -172,8 +172,9 @@ header .header-menu a, header .header-menu a:hover{
     margin: 12px 15px 0 0;
     position: absolute;
     right: 6px;
-	box-shadow: 12px 3px 10px -13px rgba(0, 0, 0, 0.42), -13px 1px 10px -13px rgba(0, 0, 0, 0.42), 0px 5px 12px -5px rgba(0, 0, 0, 1.42);
-	/*-webkit-border-image: 
+	box-shadow: 13px 6px 5px -18px rgba(0, 0, 0, 0.42), -3px 1px 8px -18px rgba(0, 0, 0, 0.42), 0px 2px 15px -5px rgba(0, 0, 0, 1);
+	/*box-shadow: 12px 3px 10px -13px rgba(0, 0, 0, 0.42), -13px 1px 10px -13px rgba(0, 0, 0, 0.42), 0px 5px 12px -5px rgba(0, 0, 0, 1.42);
+	-webkit-border-image: 
       -webkit-linear-gradient(#cde772, #7ed33d) 1 100%;
     -moz-border-image:
       -moz-linear-gradient(#cde772, #7ed33d) 1 100%;    
@@ -299,7 +300,8 @@ header .header-menu a, header .header-menu a:hover{
 	margin-top: -2px;
 }
 .advantages{
-	background: url(img/adv4.png) 0px -196px no-repeat; 
+	/*background: url(img/adv4.png) 0px -196px no-repeat; */
+	background: url(img/adv4.png) 0px -138px no-repeat;
 	background-size: 100%;
 	padding-top: 52px;
 	padding-bottom: 119px;
@@ -329,7 +331,7 @@ header .header-menu a, header .header-menu a:hover{
 .adv_img-1, .adv_img-2, .adv_img-3, .adv_img-4{
 	width: 40px;
 	height: 40px;
-	margin: 20px;
+	margin: 17px;
 }
 .adv_img-1{
 	background: url(img/adv_sprite.png) 0px 0px no-repeat;
@@ -346,7 +348,8 @@ header .header-menu a, header .header-menu a:hover{
 	background: url(img/adv_sprite.png) 0px -144px no-repeat;
 }
 .background{
-	background: url(img/background2.png) 0px 291px no-repeat;
+	/*background: url(img/background2.png) 0px 413px no-repeat;*/
+	background: url(img/background2.png) 0px 472px no-repeat;
 	background-size: 100%;
 	width: 100%;
 }
@@ -361,20 +364,23 @@ header .header-menu a, header .header-menu a:hover{
 	/*width: 473px;
 	width: calc(100% + 44px);*/
 	width: 490px;
-	height: 340px;
+	height: 350px;
 	border: 7px solid #ececec;
-	
-	border-radius: 5px;
+	background: #ececec;
+	/*margin-top: 58px;*/
+	margin-top: 31px;
+	border-radius: 8px;
 	position: absolute;
     z-index: 1;
 }
 .steps{
 	background: #fff;
-	border-radius: 5px;
+	border-radius: 8px;
 	box-shadow: 0 0 1px 1px #c9c9c9;
 	width: 100%;
 	height: 100%;
-	padding: 50px 50px 50px 54px;
+	padding: 50px;
+	text-align: center;
 }
 .steps_number {
 	display: inline-block;
@@ -403,8 +409,9 @@ header .header-menu a, header .header-menu a:hover{
 	height: 420px;
 	width: 550px;
 	border-radius: 7px;
-	right: -30px;
-    position: initial;
+	margin-left: -30px;
+    /*margin-top: 25px;*/
+	margin-top: -3px;
 }
 .steps .divider{
 	width: 138px;
@@ -421,8 +428,9 @@ header .header-menu a, header .header-menu a:hover{
 
 .consult{
 	height: 320px;
-	background: url(img/consult.png) right no-repeat;
-	background-size: 40%;
+    background: url(img/consult.png) right 12px no-repeat;
+    background-size: 40%;
+    padding-top: 88px;
 }
 .consult_text-1{
 	font-size: 48px;
