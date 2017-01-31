@@ -508,3 +508,12 @@ header .header-menu a, header .header-menu a:hover{
 	height: 100%;
 	float: right;
 }
+.gradient-2 {
+	background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+	width: 97px;
+	height: 100%;
+	float: right;
+	right: 281px;
+	top: -62px;
+	position: relative;
+}
